@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap'); url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.text {
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+/* text-align: center; */
+max-width: auto;
+margin: 50px auto;
+}
+
+.chap1 {
+color: chartreuse;
+font-size: 25px;
+}
+.chap2 {
+color: brown;
+font-size: 25px;
+}
+
+.chap3{
+color: aqua;
+font-size: 25px;
+}
+
+.banner {
+  background-image: url("http://unsplash.it/1000/500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.link:hover {
+color: yellow;
+background-image: linear-gradient(to bottom, rgb(0, 255, 89), rgb(179, 85, 85));
+}
